@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+    
+    <title>Portifólio</title>
+</head>
+<body>
+
+    <!--Inicio do Cabeçalho-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-branco baixo">
+            <div class="container">
+                <!--Logo-->
+                <a class="navbar-brand">
+                    <h1>Diego Flausino</h1>
+                </a>
+                <!--Botão Hamburguer-->
+                <button class="navbar-toggler" data-target="#navgacao_principal" data-toggle="collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!--Menu-->
+                <div id="navgacao_principal" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item" id="nav-projetos">
+                            <a class="nav-link" href="#">Projetos </a>
+                        </li>
+                        <li class="nav-item" id="nav-formacao">
+                            <a class="nav-link" href="#">Formação</a>
+                        </li>
+                        <li class="nav-item" id="nav-contatos">
+                            <a class="nav-link" href="#">Contatos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--Fim do Cabeçalho-->
+
+    <!--Inicio do Perfil-->
+    <Section id="perfil">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 esquerda">
+                    <div>
+                        <img src="img/foto.jpg" class="img-fluid  rounded-circle" alt="">
+                    </div>
+                </div>
+
+                <div class="col-md-8 mt-5 pl-4 ">
+                    <h2 class="display-5 fw-bold text-uppercase direita">Desenvolvedor <br><span>Front End.</span></h2>
+                    <p>Sou um estudante apaixonado por tecnologia, atualmente, aluno do 5° semestre de Análise e Desenvolvimento de Sistemas. E tenho o sonho de viver dessa área. Por isso estou em busca de conhecimento prático, para assim evoluir e entrar “de cabeça” neste mercado.</p>
+                    <a class="btn btn-outline-dark reveal"  href="https://github.com/diegoflausino45" target="_blank"><i class="bi bi-github pr-2"></i>Github</a>
+                    <a class="btn btn-outline-dark reveal"  href="img/Currículo.pdf" target="_blank"><i class="bi bi-file-earmark-fill pr-2"></i>Currículo</a>
+                    <a class="btn btn-outline-dark reveal" href="https://www.linkedin.com/in/diego-flausino/" target="_blank"><i class="bi bi-linkedin pr-2"></i>Linkedin</a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="borda"></div>
+                </div>
+            </div>
+        </div>
+    </Section>
+    <!--Fim do Perfil-->
+
+    <!--Inicio dos Projetos-->
+    <section id="projetos">
+        <div class="container">
+            <!--Titulo-->
+            <div class="row titulo-projeto pt-5">
+                <div class="col-md-12">
+                   <h3 class="fw-bold text-uppercase border-bottom border-dark">Projetos</h3>
+                </div>
+            </div>
+            <!--Projetos-->
+            <div class="row projeto pt-1">
+                <div class="col-md-6 text-right mt-3">
+                    <h5 class="fw-bold">Game Mata Mosquito</h5>
+                    <p>Jogo de navegador do curso de JavaScript do jorge Sant'Ana, codificado por mim utilizando <strong>JavaScript, HTML e CSS</strong>. Artes por Jorge Sant'Ana.</p>
+                    <div class="tecnologias">
+                        <span href="">HTML5</span>
+                        <span class="px-3"  href="">CSS3</span>
+                        <span href="">JavaScript</span>
+                    </div>
+                    <div class="icones">
+                        <a href=""><i class="bi bi-eye"></i></a>
+                        <a href=""><i class="bi bi-code-slash"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 text-center">
+                    <a href="">
+                        <img src="./img/mosquito.png" alt="">
+                    </a>
+                </div>
+            </div>
+            
+            <div class="row projeto ">
+                <div class="col-md-6 text-center">
+                    <a href="">
+                        <img src="./img/calculadora.png" alt="">
+                    </a>
+                </div>
+
+                <div class="col-md-6 text-left mt-3">
+                    <h5 class="fw-bold">Calculadora</h5>
+                    <p>Calculadora em navegador, desenvolvida por mim utilizando <strong>HTML, CSS e JavaScript</strong>.</p>
+                    <div class="tecnologias">
+                        <span href="">HTML5</span>
+                        <span class="px-3"  href="">CSS3</span>
+                        <span href="">JavaScript</span>
+                    </div>
+                    <div class="icones">
+                        <a href=""><i class="bi bi-eye"></i></a>
+                        <a href=""><i class="bi bi-code-slash"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row projeto ">
+                <div class="col-md-6 text-right mt-3">
+                    <h5 class="fw-bold">Clone do Spotify</h5>
+                    <p>Clone da interface do Spotify, desenvolvido como um exercício para praticar e demonstrar habilidades em HTML, CSS e Bootstrap. </p>
+                    <div class="tecnologias">
+                        <span>HTML5</span>
+                        <span class="px-3">CSS3</span>
+                        <span>Bootstrap</span>
+                    </div>
+                    <div class="icones">
+                        <a href=""><i class="bi bi-eye"></i></a>
+                        <a href=""><i class="bi bi-code-slash"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 text-center">
+                    <a href="">
+                        <img src="./img/spotify.png" alt="">
+                    </a>
+                </div>
+            </div>
+            
+            <div class="row projeto1 d-none">
+                <div class="col-md-6 text-center">
+                    <a href="">
+                        <img src="./img/mosquito.png" alt="">
+                    </a>
+                </div>
+                <div class="col-md-6 text-left mt-3">
+                    <h5 class="fw-bold">Game Mata Mosquito</h5>
+                    <p>Jogo de navegador do curso de JavaScript do jorge Sant'Ana, codificado por mim utilizando <strong>JavaScript, HTML e CSS</strong>. Artes por Jorge Sant'Ana.</p>
+                    <div class="tecnologias">
+                        <span href="">HTML5</span>
+                        <span class="px-3"  href="">CSS3</span>
+                        <span href="">JavaScript</span>
+                    </div>
+                    <div class="icones">
+                        <a href=""><i class="bi bi-eye"></i></a>
+                        <a href=""><i class="bi bi-code-slash"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row projeto1  d-none ">
+                <div class="col-md-6 text-right mt-3">
+                    <h5 class="fw-bold">Calculadora</h5>
+                    <p>Calculadora em navegador, desenvolvida por mim utilizando <strong>HTML, CSS e JavaScript</strong>.</p>
+                    <div class="tecnologias">
+                        <span href="">HTML5</span>
+                        <span class="px-3"  href="">CSS3</span>
+                        <span href="">JavaScript</span>
+                    </div>
+                    <div class="icones">
+                        <a href=""><i class="bi bi-eye"></i></a>
+                        <a href=""><i class="bi bi-code-slash"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 text-center">
+                    <a href="">
+                        <img src="./img/calculadora.png" alt="">
+                    </a>
+                </div>
+            </div>
+
+            <div class="row projeto1 d-none ">
+                <div class="col-md-6 text-center ">
+                    <a href="">
+                        <img src="./img/spotify.png" alt="">
+                    </a>
+                </div>
+
+                <div class="col-md-6 text-left mt-3 ">
+                    <h5 class="fw-bold">Clone do Spotify</h5>
+                    <p>Clone da interface do Spotify, desenvolvido como um exercício para praticar e demonstrar habilidades em HTML, CSS e Bootstrap. </p>
+                    <div class="tecnologias">
+                        <span>HTML5</span>
+                        <span class="px-3">CSS3</span>
+                        <span>Bootstrap</span>
+                    </div>
+                    <div class="icones">
+                        <a href=""><i class="bi bi-eye"></i></a>
+                        <a href=""><i class="bi bi-code-slash"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="botoes_exibicao" class="row pt-5">
+                <div class="text-center col-md-12">
+                    <span id="ver_mais" class="btn text-primary fs-4" id="ver">
+                        <span>ver mais</span>
+                        <i class="bi bi-arrow-down-circle"></i>
+                    </span>
+
+                    <button id="ver_menos" class="btn text-primary fs-4 d-none" id="ver">
+                        <span>ver menos</span>
+                        <i class="bi bi-arrow-up-circle"></i>
+                    </button>  
+                </div>
+            </div>  
+    </section>
+    <!--Fim dos Projetos-->
+
+    <!--Inicio da Formação-->
+    <section id="formacao">
+        <div class="container">
+            <!--Titulo-->
+            <div class="row ">
+                <div class="col-md-12 py-4">
+                    <h1 class="display-1 fw-bold">Formação<span class="text-primary">.</span></h1>
+                </div>
+            </div>
+            <!--Cursos-->
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Técnologo</h5>
+                            <p class="card-text">Análise e Desenvolvimento de Sistemas - <span>FATEC Professor Antônio Seabra</span></p>       
+                            <span>2022 - 2024</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Técnico</h5>
+                            <p class="card-text">Desenvolvimento de Sistemas - ETEC Helcy Moreira Martins Aguiar</p>                        
+                            <span>2020 - 2021</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Ensino Médio</h5>
+                            <p class="card-text">Ensino Médio Regular - ETEC Helcy Moreira Martins Aguiar</p>                     
+                            <span>2019 - 2021</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Curso Udemy</h5>
+                            <p class="card-text">Desenvolvimento Web Completo</p>                     
+                            <span>118,5h - 2024</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Curso Udemy</h5>
+                            <p class="card-text">Banco de Dados SQL (MySQL)</p>                
+                            <span>40h - 2024</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Habilidades-->
+            <div class="row">
+                <div class="col-md-12">
+                    <h6>Hard Skills</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 listas">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>Bootstrap</span>
+                    <span>Figma</span>
+                </div>
+                <div class="col-md-4 listas">
+                    <span>JavaScript</span>
+                    <span>Jquery</span>
+                    <span>C</span>
+                    <span>IONIC</span>
+                </div>
+                <div class="col-md-4 listas">
+                    <span>PHP</span>
+                    <span>MySQL</span>
+                    <span>SASS</span>
+                    <span>WordPress</span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <h6>Soft Skills</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 listas">
+                    <span>Trabalho em Equipe</span>
+                    <span>Resolução de Problemas</span>
+                    <span>Criatividade</span>
+                    <span>Flexibilidade</span>
+                </div>
+                <div class="col-md-4 listas">
+                    <span>Agilidade de Aprendizado</span>
+                    <span>Atenção Para Ouvir</span>
+                    <span>Comunicação</span>
+                    <span>Princípios Éticos</span>
+                </div>
+                <div class="col-md-4 listas">
+                    <span>Trabalho Sob Pressão</span>
+                    <span>Curiosidade</span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <h6>Idiomas</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 listas">
+                    <span><strong>Inglês</strong>  / Intermediário</span>
+                    <span><strong>Espanhol</strong> / Básico</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Fim da Formação-->
+
+    <!--Inicio dos Contatos-->
+    <section id="contatos">
+        <div class="container">
+
+            <div class="row w-75 m-auto">
+                <!--Texto-->
+                <div class="col-md-6 align-self-center">
+                    <p class="text-white ml-5">Estou diponível para novos projetos. Entre em contato e marcamos uma conversa.</p>
+                </div>
+                <!--Meios de Contato-->
+                <div class="col-md-6">
+                    <li><a><i class="bi bi-envelope pr-2"></i> diegocflausino@gmail.com</a></li>
+                    <li><a><i class="bi bi-telephone pr-2"></i> +55 14 99775-4810</a></li>
+                </div>
+            </div>
+            <!--Direitos Autorais-->
+            <div class="row mt-5">
+                <div class="col-md-12 text-dark text-center">
+                    <p>@ 2024 - Design and Code by Diego Flausino</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--Fim dos Contatos-->
+
+    <!--Inicio do botão Up-->
+    <section id="BtnUp" class="fixed-bottom text-end p-4">
+        <i id="inicio" class="bi text-primary bi-arrow-up-circle-fill fs-1"></i>
+    </section>
+    <!--Fim do botão Up-->
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
